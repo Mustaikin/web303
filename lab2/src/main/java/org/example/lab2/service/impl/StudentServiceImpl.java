@@ -1,6 +1,6 @@
 package org.example.lab2.service.impl;
 
-import org.example.lab2.domain.Student;
+import org.example.lab2.entity.Student;
 import org.example.lab2.service.StudentService;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.Service;

@@ -4,7 +4,7 @@ import org.example.lab2.service.StudentService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.example.lab2.domain.Student;
+import org.example.lab2.entity.Student;
 
 import java.util.List;
 @RestController
@@ -40,18 +40,6 @@ public class StudentController {
         }
     }
 
-    /*
-    {
-    "id": 4,
-    "firstName": "Подгорнов",
-    "lastName": "Александр",
-    "fatherName": "Андреевич",
-    "faculty": "Факультет Математики и ИТ",
-    "group": 303
-    }
-
-
-     */
 
     // PUT: Обновить студента
     @PutMapping("/{id}/student")
@@ -63,16 +51,7 @@ public class StudentController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
         }
     }
-    /*
-    {
-    "id": 4,
-    "firstName": "Подгорнов",
-    "lastName": "Александр",
-    "fatherName": "Андреевич",
-    "faculty": "Факультет Математики и ИТ",
-    "group": 304
-    }
-     */
+
     // DELETE: Удалить студента
     @DeleteMapping("/student")
     public ResponseEntity<String> deleteStudent(@RequestParam Long id) {
@@ -85,7 +64,6 @@ public class StudentController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Студент не найден.");
         }
     }
-    //localhost:8080/api/v1/student?id=3&
 
 }
 

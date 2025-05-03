@@ -1,5 +1,5 @@
 package org.example.lab2.service;
-import org.example.lab2.domain.Student;
+import org.example.lab2.entity.Student;
 
 import java.util.List;
 

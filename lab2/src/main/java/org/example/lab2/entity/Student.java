@@ -1,4 +1,4 @@
-package org.example.lab2.domain;
+package org.example.lab2.entity;
 import jakarta.persistence.*;
 import lombok.*;
 @Data

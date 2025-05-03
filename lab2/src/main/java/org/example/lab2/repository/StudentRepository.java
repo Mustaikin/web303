@@ -1,6 +1,6 @@
 package org.example.lab2.repository;
 
-import org.example.lab2.domain.*;
+import org.example.lab2.entity.*;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

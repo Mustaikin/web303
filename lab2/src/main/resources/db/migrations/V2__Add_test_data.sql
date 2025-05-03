@@ -4,3 +4,5 @@ INSERT INTO Student (first_name, last_name, father_name, faculty, num_of_group)
 VALUES ('Арсений', 'Арсенивьев', 'Арсеньевич', 'Географический факультет', 301);
 INSERT INTO Student (first_name, last_name, father_name, faculty, num_of_group)
 VALUES ('Алексей', 'Алексеев', 'Алексеевич', 'Медицинский факультет', 101);
+INSERT INTO Student (first_name, last_name, father_name, faculty, num_of_group)
+VALUES ('Игорь', 'Игоревич', 'Игорев', 'Игоревский факультет', 1001);
